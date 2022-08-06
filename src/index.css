@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.app{
+  width: 45%;
+  height: 100%;
+  margin: auto;
+  background: #00001a;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.dive{
+  width: 140%;
+  margin: auto;
+  margin-left: 53%;
+  margin-top: 10%;
+}
+
+.info{
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-text{
+  text-align: center;
+  margin: auto;
+}
+
+.buttons{
+  width: 100%;
+}
+
+img{
+  border-radius: 5%;
+  width: 100%;
+  padding: auto;
+}
