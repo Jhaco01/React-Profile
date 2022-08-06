@@ -5,7 +5,9 @@ export const MyInfo = () => {
     return (
         <section className="info">
           <div className="dive">
-            <img  src={me} />
+            <div className="img">
+                <img src={me} />
+            </div>
             <div className="info-text">
                 <h1> Jhacoby K. Delgado </h1>
                 <h4> Front-end Developer </h4>

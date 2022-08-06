@@ -2,39 +2,33 @@
 
 .app{
   width: 45%;
-  height: 100%;
+  height: 100vh;
   margin: auto;
+  margin-top: 0%;
   background: #00001a;
   font-family: 'Inter', sans-serif;
   color: white;
 }
 
-.dive{
-  width: 140%;
-  margin: auto;
-  margin-left: 53%;
-  margin-top: 10%;
-}
-
 .info{
-  width: 40%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-text{
   text-align: center;
-  margin: auto;
 }
 
-.buttons{
-  width: 100%;
+.img{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img{
-  border-radius: 5%;
-  width: 100%;
-  padding: auto;
+    border-radius: 5%;
+    width: 40%;
 }
