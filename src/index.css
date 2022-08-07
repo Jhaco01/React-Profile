@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 .app{
-  width: 45%;
-  height: 100vh;
+  width: 22%;
+  height: 100%;
   margin: auto;
   margin-top: 0%;
   background: #00001a;
@@ -19,16 +19,111 @@
 
 .info-text{
   text-align: center;
+  line-height: 10px;
+}
+
+.info-text h4{
+    font-size: 14px;
+    font-weight: 100;
+    color: gainsboro;
+    margin-top: -5px;
+    margin-bottom: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 12px;
 }
 
 .img{
-  align-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+}
+
+button{
+    width: 42%;
+    height: 7vh;
+    display: flex;
+    border-radius: 10px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.white{
+    background-color: aliceblue;  
+    color: #00001a;    
+}
+
+.white:hover{
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.783);
+}
+
+.blue{
+  cursor: pointer;  
+  background-color: #00a3cc;
+  color: white;
+}
+
+.blue:hover{
+  cursor: pointer;
+  background-color: #00a3ccbb;
+}
+
 img{
     border-radius: 5%;
-    width: 40%;
+    width: 90%;
+    margin-top: 5%;
+}
+
+.about{
+  color: #e1e1ea;
+}
+
+.about p{
+  font-size: 12px;
+  padding: 5%;
+  padding-top: 0%;
+  text-align: justify;
+  margin-top: -5%;
+  color: #c2c2d6;  
+}
+
+.about h3{
+  font-size: 15px;
+  padding-left: 5%;
+}
+
+.about:last-child{
+  margin-top: -5%;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;  
+}
+
+.social-icons i{
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+  margin-top: -10%;
+  color: #a5a5c0;
+  transition: all 0.5s;
+}
+
+.social-icons i:hover{
+  color: #a5a5c098;
+  cursor: pointer;  
 }

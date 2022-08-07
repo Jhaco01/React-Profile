@@ -14,13 +14,11 @@ export const MyInfo = () => {
                 <a href="#">jkdelgado.com</a>
             </div>
             <div className="buttons">
-                <button>
-                    <i className="fa-solid fa-envelope"></i>
-                    <p>Email</p>
+                <button className="white">
+                    <p> <i className="fa-solid fa-envelope"></i> Email</p>
                 </button>
-                <button>                    
-                    <i className="fa-brands fa-linkedin"></i>
-                    <p>LinkedIn</p>
+                <button className="blue">                                        
+                    <p> <i className="fa-brands fa-linkedin"></i> LinkedIn</p>
                 </button>                
             </div>
           </div>  
